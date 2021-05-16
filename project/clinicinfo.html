@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<style type="text/css">
+	.a9{
+		margin-top: 100px;
+	}
+	.img{
+		background-image: url(doctor6.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 1500px,800px;
+	}
+</style>
+</head>
+<body class="img">
+	<section class="" id="">
+<form action="cinsert.php" method="post">
+<div class="container a9">
+	<div class="row border pb-5">
+		<div class="col-md-12 p-3 bg-info text-center">
+			<h2 class="text-uppercase text-white font-weight-bold">Clinic Information</h2>
+			</div>
+		<div class="col-md-6 mt-4">
+			<div class="row">
+				<div class="col-md-3">
+					<label class="text-dark font-weight-bold" hidden="">Clinic:</label>
+				</div>
+				<div class="col-md-9">
+					<input type="text" name="cid" class="form-control" placeholder="Enter clinic id." hidden="">
+					
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6 mt-4">
+			<div class="row">
+				<div class="col-md-3">
+					<label class="text-dark font-weight-bold">Clinic Id:</label>
+				</div>
+				<div class="col-md-9">
+					<input type="text" name="c_id" class="form-control" placeholder="Enter Clinic Id.">
+
+				</div>
+			</div>
+		</div>
+		
+		<div class="col-md-6 mt-4">
+			<div class="row">
+				<div class="col-md-3">
+					<label class="text-dark font-weight-bold"> ClinicName:</label>
+				</div>
+				<div class="col-md-9">
+					<input type="text" name="cname" class="form-control" placeholder="Enter Clinic Name.">
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6 mt-4">
+			<div class="row">
+				<div class="col-md-3">
+					<label class="text-dark font-weight-bold">City:</label>
+				</div>
+				<div class="col-md-9">
+					<input type="text" name="citi" class="form-control" placeholder="Enter city Name.">
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6 mt-4">
+			<div class="row">
+				<div class="col-md-3">
+					<label class="text-dark font-weight-bold">state:</label>
+				</div>
+				<div class="col-md-9">
+					<input type="text" name="mstate" class="form-control" placeholder="Enter State.">
+				</div>
+			</div>
+		</div>
+		<div class="col-md-12 mt-4 text-center">
+		<button class="btn btn-success btn-lg" name="save">Save</button>
+			<button class="btn btn-warning btn-lg" type="reset">Reset</button>
+		</div>
+	</div>
+</div>
+</form>
+</section>
+</body>
+</html>
